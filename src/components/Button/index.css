@@ -1,0 +1,25 @@
+.buttonAdd button{
+  background-color: chartreuse;
+  border: none;
+  height: 40px;
+  padding: 0px 20px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttonAdd button:hover{
+  background-color: #444;
+  color: #fff;
+  transition: 1s;
+}
+
+@media (max-width: 400px){
+  .buttonAdd button{
+    width: 100%;
+    padding: 0;
+    font-size: 14px;
+  }
+}
