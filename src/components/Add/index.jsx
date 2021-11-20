@@ -10,8 +10,13 @@ export function Add({handleTaskAddition}){
   }
 
   const handleAddTaskClick = () => {
-    handleTaskAddition(inputData)
-    setInputData('')
+    if(inputData === ""){
+      alert('erro')
+      setInputData('')
+    }else{
+      handleTaskAddition(inputData)
+      setInputData('')
+    }
   }
 
   return(
